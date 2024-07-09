@@ -12,7 +12,7 @@
 
 .introducao-conteudo {
   display: grid;
-  gap: calc(80rem/16);
+  gap: calc(40rem/16);
   padding: calc(15rem/16);
 }
 
@@ -22,9 +22,9 @@
 .introducao-conteudo h1{
   text-align: left;
   color: rgb(255, 255, 255);
-  font-size: 5rem ;
+  font-size: 4rem ;
   font-weight: 600;
-  padding-bottom: calc(1rem/16);
+  padding-bottom: calc(1rem/12);
 }
 
 .introducao-conteudo h1 strong{
