@@ -133,7 +133,7 @@
 
   .introducao-conteudo {
     display: inline-block;
-    wgap: 5rem;
+    gap: 5rem;
     padding: 1rem 3.5rem;
     align-items: start;
   }
@@ -141,6 +141,11 @@
     height: calc(530rem/16);
     padding-top: calc(45rem/16);
   }
+
+  .introducao-conteudo h1{
+    font-size: 3rem ;
+  }
+
 }
 @media (max-width: calc(400rem/16)) {
   .introducao-conteudo {

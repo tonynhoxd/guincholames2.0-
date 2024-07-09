@@ -55,6 +55,7 @@
 }
 @media (max-width: calc(500rem/16)) {
   .servicos-itens {
+    padding-top: 5rem;
     gap: 1rem;
   }
   .servicos-itens li {
