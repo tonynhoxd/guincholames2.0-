@@ -29,6 +29,15 @@
   gap: 40px;
 }
 
+.atendimento-grid a{
+  transition: 0.2s;
+  color: rgb(0, 40, 105);
+}
+
+.atendimento-grid a:hover{
+  color: rgb(0, 83, 216);
+}
+
 @media (max-width: 450px) {
 .atendimento-bg{
   padding: 0px 40px;

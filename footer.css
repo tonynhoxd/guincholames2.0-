@@ -9,7 +9,12 @@
 }
 
 .footer a {
+ transition: 0.2s;
  color:#d7fffa;
+}
+
+.footer a:hover{
+  color: rgb(0, 40, 105);
 }
 
 .footer li{

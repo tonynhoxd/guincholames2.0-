@@ -55,6 +55,9 @@
 
 
 
+
+
+
 .introducao-conteudo a:hover {
   background-color: rgb(205, 14, 0);
 }
@@ -84,6 +87,11 @@
   width: 120px;
   bottom: 35px;
   right: 32px;
+  transition: 0.2s;
+}
+
+#wh:hover{
+  filter:grayscale(50%);
 }
 
 @media (min-width: 540px) {
