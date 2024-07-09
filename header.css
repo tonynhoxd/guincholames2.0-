@@ -137,7 +137,7 @@ header {
 }
 
 .nav-bar {
-  max-width: 1200px;
+  max-width: calc(1200rem / 16);
   padding: 1.5rem 1.75rem;
   margin: 0 auto;
   width: 100%;
@@ -146,7 +146,6 @@ header {
   align-items: center;
   list-style: none;
   position: relative;
-
 }
 .logo img {
   width: 7.2rem;
@@ -159,17 +158,16 @@ header {
 .nav-bar strong {
   font-weight: 600;
   border: 2px solid rgb(255, 30, 0);
-  padding: 8px 12px;
+  padding: calc(8rem / 16) calc(12rem / 16);
   box-sizing: border-box;
-  border-radius: 2px;
-  margin-left: -10px;
+  border-radius: calc(2rem / 16);
+  margin-left: calc(-12rem / 16);
   transition: 0.2s;
 }
 
-.nav-bar strong:hover{
+.nav-bar strong:hover {
   background: rgb(255, 30, 0);
   color: rgb(0, 40, 105);
-
 }
 
 .menu li a {
@@ -183,11 +181,11 @@ header {
   transition: 0.15s ease-in-out;
   position: relative;
   text-transform: uppercase;
-  padding: 10px;
+  padding: calc(10rem / 16);
   transition: 0.2s;
 }
 
-.menu li a:hover{
+.menu li a:hover {
   color: rgb(0, 86, 224);
 }
 
@@ -204,21 +202,21 @@ header {
 }
 .open-menu {
   top: 50%;
-  right: 20px;
+  right: calc(20rem / 16);
   transform: translateY(-50%);
 }
 .close-menu {
-  top: 52px;
-  right: 25px;
+  top: calc(52rem / 16);
+  right: calc(25rem / 16);
 }
 #check {
   display: none;
 }
 
-@media (max-width: 890px) {
+@media (max-width: calc(890rem/16)) {
   .menu {
-    padding-top: 85px;
-    padding-left: 30px;
+    padding-top: calc(85rem / 16);
+    padding-left: calc(30rem / 16);
     flex-direction: column;
     width: 50%;
     height: 100vh;
@@ -231,10 +229,10 @@ header {
     gap: 0;
   }
   .menu li {
-    margin-top: 30px;
+    margin-top: calc(30rem / 16);
   }
   .menu li a {
-    padding: 10px;
+    padding: calc(10rem / 16);
     color: rgb(255, 240, 240);
   }
   .open-menu,
@@ -254,11 +252,11 @@ header {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: calc(500rem/16)) {
   .menu li a {
     font-size: 0.9rem;
   }
   .nav-bar strong {
-    padding: 6px 4px;
+    padding: calc(6rem / 16) calc(4rem / 16);
   }
 }

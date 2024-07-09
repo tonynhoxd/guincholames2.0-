@@ -2,14 +2,14 @@
  display: flex;
  justify-content: center;
  align-content: center;
- padding: 70px 0px 130px 0px;
+ padding: calc(70rem/16) 0 calc(130rem/16) 0;
 }
 
 .quemsomos h1 {
   font-size: 3rem;
   text-align: center;
   color: #013E87;
-  padding: 100px 10px 0px 10px;
+  padding: calc(100rem/16) calc(10rem/16) 0 calc(10rem/16);
 }
 
 .quemsomos h1 strong{
@@ -21,21 +21,21 @@
   grid-template-columns: 1fr 1fr;
   background: #d6181f;
   color: white;
-  width: 1150px;
+  width: calc(1150rem/16);
 }
 
 .quemsomos-grid1 {
-  padding: 40px;
+  padding: calc(40rem/16);
 }
 
 .quemsomos-grid1 h2 {
-  font-size: 40px;
+  font-size: calc(40rem/16);
   font-weight: 600; 
   text-align: left;
 }
 
 .quemsomos-grid1 p{
-  padding-top: 40px;
+  padding-top: calc(40rem/16);
   font-size: 1.2rem;
  line-height: 1.5rem;
  text-align: left;
@@ -45,22 +45,22 @@
   max-width: 100%;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: calc(1050rem/16)) {
 .quemsomos-grid{
 grid-template-columns: 1fr;
 }
 
 .quemsomos h1 {
 
-  padding: 70px 15px 0px 15px;
+  padding: calc(70rem/16) calc(15rem/16) 0 calc(15rem/16);
 }
 
 .quemsomos-grid p{
   font-size: 1rem;
 }
 .quemsomos-bg {
-  padding: 40px 20px;
-  padding-bottom: 80px;
+  padding: calc(40rem/16) calc(20rem/16);
+  padding-bottom: calc(80rem/16);
 }
 .quemsomos-grid h2{
   font-size: 2rem;

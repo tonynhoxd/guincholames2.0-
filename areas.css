@@ -1,20 +1,20 @@
 .atendimento {
   display: flex;
   justify-content: center;
-  padding: 80px 0px;
+  padding: calc(80rem/16) 0;
   background: rgb(222, 222, 222);
 }
 
 .atendimento-bg {
   text-align: center;
-  padding: 0px 80px;
-  width: 1150px; /* Garante que o contêiner ocupe todo o espaço horizontal disponível */
+  padding: 0 calc(80rem/16);
+  width: calc(1150rem/16); /* Garante que o contêiner ocupe todo o espaço horizontal disponível */
   box-sizing: border-box; /* Mantém o padding dentro da largura total */
 }
 
 .atendimento-bg h1 {
-  font-size: 40px;
-  padding-bottom: 80px;
+  font-size: calc(40rem/16);
+  padding-bottom: calc(80rem/16);
   font-weight: 600;
   color: #d81d23;
 }
@@ -24,9 +24,9 @@
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
-    minmax(200px, 1fr)
+    minmax(calc(200rem/16), 1fr)
   ); /* Ajuste as larguras das colunas conforme necessário */
-  gap: 40px;
+  gap: calc(40rem/16);
 }
 
 .atendimento-grid a{
@@ -38,21 +38,19 @@
   color: rgb(0, 83, 216);
 }
 
-@media (max-width: 450px) {
+@media (max-width: calc(450rem/16)) {
 .atendimento-bg{
-  padding: 0px 40px;
+  padding: 0 calc(40rem/16);
 }
 
-  .atendimento-grid{
 
-  }
   .atendimento h1{
     font-size: 2rem;
-    padding-bottom: 40px;
+    padding-bottom: calc(40rem/16);
    
   }
 
   .atendimento{
-    padding-top: 80px;
+    padding-top: calc(80rem/16);
   }
 }
