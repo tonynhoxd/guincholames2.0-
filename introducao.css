@@ -1,0 +1,141 @@
+.container_introducao {
+  height: 750px;
+  background-image: url("caminhaoazul.jpg");
+  background-size: cover;
+  background-position: left center;
+  display: grid;
+  padding-top: 120px;
+  padding: 160px 0px;
+  display: grid;
+  justify-content: center;
+}
+
+.introducao-conteudo {
+  display: grid;
+  wgap: 80px;
+  padding: 15px;
+}
+
+/*#013E87
+#D6181F*/
+
+.introducao-conteudo h1{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 5rem ;
+  font-weight: 600;
+  padding-bottom: calc(1rrem/16);
+}
+
+.introducao-conteudo h1 strong{
+  color: #d6181f;
+}
+
+.introducao-conteudo h2 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 3rem ;
+  font-weight: 600;
+  margin: 0; /* Adicionado para remover margens padrão dos títulos */
+}
+
+.container_introducao a {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-self: start;
+  background-color: #d6181f;
+  border-radius: 3rem;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0px 25px;
+  max-width: 500px;
+}
+
+
+
+.introducao-conteudo a:hover {
+  background-color: rgb(205, 14, 0);
+}
+
+.introducao-conteudo img {
+  width: 5rem;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.introducao-conteudo p {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 30px;
+}
+
+.introducao-conteudo p strong {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+}
+
+#wh {
+  position: fixed;
+  width: 120px;
+  bottom: 35px;
+  right: 32px;
+}
+
+@media (min-width: 540px) {
+  .introducao-conteudo a{
+    align-self: end;
+    height: 120px;
+  }
+}
+
+@media (max-width: 540px) {
+  #wh {
+    position: fixed;
+    width: 80px;
+    bottom: 15px;
+    right: 12px;
+  }
+
+  .introducao-conteudo {
+    padding: 10px;
+  }
+  .introducao-conteudo h2 {
+    font-size: 2.2rem;
+    padding-bottom: 35px;
+  }
+
+  .introducao-conteudo img {
+    width: 3rem;
+  }
+
+  .introducao-conteudo a {
+    font-size: 1.5rem;
+    padding: 1rem;
+    max-width: 300px;
+  }
+  .introducao-conteudo p {
+    font-size: 1.3rem;
+    padding-bottom: 80px;
+  }
+
+  .introducao-conteudo {
+    display: inline-block;
+    wgap: 5rem;
+    padding: 1rem 3.5rem;
+    align-items: start;
+  }
+  .container_introducao {
+    height: 530px;
+    padding-top: 45px;
+  }
+}
+@media (max-width: 400px) {
+  .introducao-conteudo {
+    padding: 2rem 2rem 3rem 2rem;
+  }
+}
